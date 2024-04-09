@@ -8,7 +8,7 @@ t add(t a,t b){
 // taking both parametrs different
 template <class t1,class t2>
 t2 add(t1 x,t2 y){
-    return a+b;
+    return x+y;
 }
 int main(){
     cout<<"sum of 4 and 2 is :"<<add(4,2);
